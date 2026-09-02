@@ -1,0 +1,17 @@
+### GET request to example server
+GET http://localhost:8081
+
+###
+GET http://localhost:8081/api/v1/software-engineers
+
+###
+GET http://localhost:8081/api/v1/software-engineers/2
+
+###
+POST http://localhost:8081/api/v1/software-engineers
+Content-Type: application/json
+
+{
+  "name": "Alec",
+  "techStack": "kbd, databases, q"
+}
